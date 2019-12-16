@@ -1,0 +1,25 @@
+html{
+    background-color: rgba(254, 244, 218, 1);
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.top{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(214, 205, 177, 1);
+}
+.mid{
+    height: 50rem;
+    width: 100%;
+    /* background-color: rgba(214, 205, 137, 1); */
+}
+.bot{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(203, 192, 166, 1);
+}
