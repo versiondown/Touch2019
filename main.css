@@ -12,6 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     border: 2px solid red;
+    /*overflow: hidden;*/
 }
 .screen{
     height: 90vh;
@@ -46,12 +47,11 @@ body{
     width: 100%;
     /*border-radius: 10px;*/
      background-color: rgba(255, 240, 221, 0);
-
 }
 .bot{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: none;
-    box-shadow:0px -1px 0px black;
+    box-shadow:0px -1px 0px rgba(0, 0, 0, 0.1);
     height: 60px;
     width: 80%;
     border-radius: 10px 10px 0px 0px;
@@ -61,9 +61,18 @@ body{
 .bot-safezone{
     height: 100%;
     width: 100%;
+}
+.bot-safezone:after{
+
     border-radius: 10px 10px 0px 0px;
     /*border: 1px solid white;*/
     /*background-color: rgba(255, 255, 255, 0.4);*/
     background: inherit;
     filter: blur(2px);
+    /*z-index: -1;*/
+}
+.bot-icon{
+    height: 50px;
+    width: 40px;
+    background-color: gold;
 }
