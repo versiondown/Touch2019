@@ -21,7 +21,6 @@ body{
 .screen{
     min-height: 100vh;
     width: 100%;
-    /* border: 2px solid red; */
 
     display: flex;
     flex-direction: row;
@@ -31,12 +30,9 @@ body{
 .info{
     transition: all 0.8s;
     height: 100vh;
-    /* width: 20%; */
-    /* min-width: 240px; */
     width: 300px;
     border-radius: 0px 10px 10px 0px;
-    
-    /* background-color: darkturquoise; */
+
     box-shadow: 1px 1px 4px 0px rgb(206, 206, 206);
     filter: grayscale(100%);
 }
@@ -47,33 +43,45 @@ body{
     filter: grayscale(0%);
 }
 .idcards{
-    height: 200px;
+    height: auto;
     width: 300px;
     border-radius: 0px 10px 0px 0px;
-    /* background-color: darkturquoise; */
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid darkturquoise; */
-    /* background-image: url(./src/img/wallpaper_catalina_1.jpg); */
+
+    /* border: 1px solid red; */
 }
 .idcard{
     transition: all 0.4s;
     height: 161.94px;
     width: 256.8px;
-    /* background-color: pink; */
     border-radius: 9.54px;
-    box-shadow: 1px 2px 2px 0px rgb(190, 190, 190);
-    /* border: 2px solid darkturquoise; */
+    margin: 20px auto;
     background-image: url(./src/img/ov76.jpeg);
+
+    box-shadow: 0 6px 6px 6px rgb(78, 7, 7) inset;
 }
 .idcard:hover{
-    transition: all 0.2s;
-    box-shadow: 1px 2px 8px 4px rgb(121, 121, 121);
+    transition: all 0.6s;
+    box-shadow: 0 2px 2px 0px rgb(235, 13, 13) inset;
 }
+.slogans{
+    height: 50px;
+    width: 300px;
+    border-radius: 0px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-.control{
+    /* border: 1px solid red; */
+}
+.slogan{
+    width: auto;
+    height: 50px;
+    max-width: 256.8px;
 }
